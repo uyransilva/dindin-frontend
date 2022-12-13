@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FAFAFA;
+    height: 196px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 25px;
+
+    font-size: 14px;
+    line-height: 15px;
+    position: relative;
+    animation: mymove 1s;
+}
+
+
+@keyframes mymove {
+    from {
+        left: 70px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+.resume h2 {
+    margin-bottom: 23px;
+}
+
+.entrada,
+.saida,
+.saldo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.output-desc {
+    color: #FA8C10;
+}
+
+.input-desc {
+    color: #645FFB;
+}
+
+.balance-desc {
+    color: #3A9FF1
+}
+
+.line {
+    background-color: rgb(221, 218, 218);
+
+    margin-top: 10px;
+    margin-bottom: 22px;
+    height: 2px;
+}

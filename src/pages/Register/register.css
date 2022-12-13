@@ -1,0 +1,49 @@
+.singup {
+    display: flex;
+    justify-content: center;
+
+}
+
+.register-div {
+    background-color: white;
+    min-width: 513px;
+
+    padding: 55px 32px;
+    margin-top: -100px;
+}
+
+.register-div h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    color: #7978D9;
+}
+
+.btn-register {
+    margin-top: 40px;
+}
+
+.register-div span {
+    color: #7B61FF;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 31px;
+    color: #484848;
+}
+
+form input {
+    border: 1px solid rgba(85, 85, 85, 1);
+    height: 63px;
+    padding-left: 5px;
+    margin-top: 9px;
+}

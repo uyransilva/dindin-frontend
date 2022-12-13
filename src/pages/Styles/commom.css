@@ -1,0 +1,24 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.container {
+    max-width: 100vw;
+    min-height: 100vh;
+    background-image: url(../../assets/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+header img {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+.filtro {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 80px;
+    margin-left: 105px;
+    margin-top: 55px;
+    margin-bottom: 26px;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+}
+
+.filtro:hover {
+    transform: scale(1.01);
+    background-color: #7978D9;
+    color: #FAFAFA;
+}
+
+.section-main {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.section-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 105px;
+}
+
+.descricoes {
+    display: flex;
+    text-align: center;
+}
+
+.section-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 34px;
+    width: 236px;
+
+}
+
+.add-registro {
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-add {
+    margin-top: 20px;
+    background-color: #7978D9;
+    color: #ffffff;
+    width: 236px;
+    height: 42px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.2);
+}
+
+.btn-add:hover {
+    background-color: #8280d5;
+    transform: scale(1.02);
+}
